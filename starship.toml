@@ -1,6 +1,6 @@
 [custom.flox]
 command = 'echo $FLOX_PROMPT_ENVIRONMENTS'
-description = 'The currently active flox environments'
+description = 'The currently active Flox environments'
 when = ''' [ -n "${FLOX_PROMPT_ENVIRONMENTS:-}" ] '''
 style = 'bold 216'
-format = 'in [($output)]($style) '
+format = '󰨫 [($output)]($style) '
