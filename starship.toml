@@ -1,6 +1,35 @@
+format = """
+$username\
+$hostname\
+$directory\
+$git_branch\
+$git_commit\
+$git_state\
+$git_metrics\
+$git_status\
+$docker_context\
+$guix_shell\
+$nodejs\
+$nix_shell\
+$memory_usage\
+$env_var\
+$custom\
+$sudo\
+$cmd_duration\
+$line_break\
+$jobs\
+$battery\
+$time\
+$status\
+$os\
+$container\
+$shell\
+$character"""
+
 [custom.flox]
 command = 'echo $FLOX_PROMPT_ENVIRONMENTS'
 description = 'The currently active Flox environments'
 when = ''' [ -n "${FLOX_PROMPT_ENVIRONMENTS:-}" ] '''
 style = 'bold 216'
 format = '󰨫 [($output)]($style) '
+
