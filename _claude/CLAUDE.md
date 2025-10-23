@@ -1,0 +1,1 @@
+- never give yourself credit in commit messages, or co-author status

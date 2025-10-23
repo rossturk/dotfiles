@@ -1,0 +1,10 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Fish shell generated files
+_config/fish/fish_variables
+
+# Sensitive files (add any you don't want to commit)
+# _gitconfig  # Uncomment if you have personal info in gitconfig
