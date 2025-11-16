@@ -5,6 +5,7 @@ LINKS = \
 	_config/fish:$(HOME)/.config/fish \
 	_config/starship.toml:$(HOME)/.config/starship.toml \
 	_gitconfig:$(HOME)/.gitconfig \
+	_bashrc:$(HOME)/.bashrc \
 	_gitignore:$(HOME)/.gitignore \
 	_claude/CLAUDE.md:$(HOME)/.claude/CLAUDE.md
 
