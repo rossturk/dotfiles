@@ -25,6 +25,7 @@ format = '[ $symbol]($style)'
 
 [os.symbols]
 Macos = " "
+Linux = "🐧 "
 
 [hostname]
 ssh_only = false
