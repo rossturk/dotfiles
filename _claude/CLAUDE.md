@@ -1,1 +1,3 @@
 - never give yourself credit in commit messages, or co-author status
+- never commit without being asked to
+- NEVER EVER commit without being told
